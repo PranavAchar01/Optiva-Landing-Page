@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optiva | CLI Optimization Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            font-size: 90%;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #f5f5f7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1, h2, h3, .formal-text {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .gradient-text {
+            background: linear-gradient(180deg, #fff 0%, #86868b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Standard CTA Button */
+        .btn-primary {
+            background-color: #fff;
+            color: #000;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255,255,255,0.2);
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 0 80px rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1.2);
+        }
+
+        .input-field {
+            background: #121212;
+            border: 1px solid #333;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .input-field:focus {
+            outline: none;
+            border-color: #666;
+            background: #1a1a1a;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center selection:bg-gray-800 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="w-full px-12 py-10 flex justify-between items-center z-10 relative">
+        <div class="flex items-center">
+            <img src="Logo.png" alt="Optiva Logo" class="h-12 w-auto">
+        </div>
+        <a href="#waitlist" class="text-xs tracking-widest uppercase font-medium text-gray-400 hover:text-white border border-gray-800 px-8 py-3 rounded-full transition-all hover:bg-white/5 backdrop-blur-sm">Join Waitlist</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="w-full max-w-6xl mx-auto px-6 pt-4 pb-32 flex flex-col items-center text-center z-10 relative">
+        
+        <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight italic">
+            Command your <br>
+            <span class="gradient-text not-italic">future.</span>
+        </h1>
+        
+        <p class="text-lg md:text-xl text-gray-500 max-w-2xl mb-10 leading-relaxed font-light">
+            Optiva is a silent architect for your CLI. It harmonizes your hardware specs with your tools to unlock peak machine performance.
+        </p>
+
+        <!-- Waitlist Form -->
+        <div id="waitlist" class="w-full max-w-lg mb-16">
+            <form id="waitlist-form" class="flex flex-col sm:flex-row gap-3">
+                <input type="email" id="email" required placeholder="Email address" class="input-field flex-1 px-8 py-3 rounded-full text-base font-medium">
+                <button type="submit" class="btn-primary px-10 py-3 rounded-full text-base font-semibold">
+                    Get Access
+                </button>
+            </form>
+            <p id="success-msg" class="hidden text-white text-lg mt-6 font-medium italic">
+                Welcome to the future of CLI.
+            </p>
+        </div>
+
+        <!-- Video Trailer Section -->
+        <div class="w-full max-w-4xl mx-auto mb-24 relative group cursor-pointer">
+            <div class="video-container bg-black">
+                <video id="trailer-video" autoplay muted playsinline class="pointer-events-auto">
+                    <source src="Optiva_product_trailer_features_delpmaspu_.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-16 text-left w-full border-t border-gray-900 pt-24">
+            <div>
+                <h3 class="text-white font-bold text-2xl mb-4 italic">Silent Harmony</h3>
+                <p class="text-gray-500 text-base leading-relaxed">
+                    Optiva reads your device's soul—CPU, RAM, and cores—then configures your environment to run at the absolute ceiling of its capability.
+                </p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-2xl mb-4 italic">Parallel Intelligence</h3>
+                <p class="text-gray-500 text-base leading-relaxed">
+                    Unlock true multi-agent collaboration. By optimizing hardware vectors, Optiva enables more agents to work in unison with zero friction.
+                </p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-2xl mb-4 italic">Native Velocity</h3>
+                <p class="text-gray-500 text-base leading-relaxed">
+                    Built for the modern terminal. From Claude Code to custom scripts, your workflow is transformed into a seamless, high-speed pipeline.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full border-t border-gray-900 py-10 mt-auto">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 font-medium">
+            <p>&copy; 2026 Optiva. All rights reserved.</p>
+            <div class="flex gap-6 mt-4 md:mt-0">
+                <a href="#" class="hover:text-gray-300 transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-gray-300 transition-colors">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script for Waitlist Form & Video Restart -->
+    <script>
+        // Waitlist form submission
+        document.getElementById('waitlist-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('email').value;
+            if(email) {
+                const btn = this.querySelector('button');
+                btn.innerText = 'Joining...';
+                btn.disabled = true;
+                
+                setTimeout(() => {
+                    this.style.display = 'none';
+                    document.getElementById('success-msg').classList.remove('hidden');
+                }, 1000);
+            }
+        });
+
+        // Video restart and reset
+        const video = document.getElementById('trailer-video');
+        video.addEventListener('click', function() {
+            this.currentTime = 0;
+            this.play();
+        });
+
+        // Reset to first frame when video ends
+        video.addEventListener('ended', function() {
+            this.currentTime = 0;
+        });
+    </script>
+</body>
+</html>
