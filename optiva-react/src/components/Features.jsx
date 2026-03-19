@@ -84,7 +84,7 @@ export default function Features() {
       <div className="container">
         <div className="section-header">
           <div className="section-eyebrow">Three Core Features</div>
-          <h2 className="section-title">What Optiva does</h2>
+          <h2 className="section-title">What Optivia does</h2>
           <p className="section-description">
             The prototype focuses entirely on three behaviors. Every component in the codebase serves exactly these three things.
           </p>

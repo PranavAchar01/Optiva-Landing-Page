@@ -8,17 +8,17 @@ export default function Vision() {
     {
       number: '02',
       title: 'Cross-tool intelligence',
-      description: 'Optiva currently runs on Claude Code and Gemini CLI. The roadmap includes Cursor, GitHub Copilot Workspace, and any tool that accepts a prompt. The same scoring engine, the same Q&A loop, adapted to each execution environment. One optimizer for all your AI coding tools.'
+      description: 'Optivia currently runs on Claude Code and Gemini CLI. The roadmap includes Cursor, GitHub Copilot Workspace, and any tool that accepts a prompt. The same scoring engine, the same Q&A loop, adapted to each execution environment. One optimizer for all your AI coding tools.'
     },
     {
       number: '03',
       title: 'Session memory',
-      description: 'Today, each prompt is evaluated in isolation. The vision is persistent session context — Optiva knowing that you\'ve been debugging the same auth module for three turns, understanding the implicit context, and pre-loading the right files and agents without you having to say so.'
+      description: 'Today, each prompt is evaluated in isolation. The vision is persistent session context — Optivia knowing that you\'ve been debugging the same auth module for three turns, understanding the implicit context, and pre-loading the right files and agents without you having to say so.'
     },
     {
       number: '04',
       title: 'Zero friction installation',
-      description: 'Today: npm install -g optiva && optiva. That\'s one command. The vision takes it further — auto-detection of your CLI tools, automatic configuration, and a setup flow that takes 30 seconds. Optiva should be invisible from the moment you install it.'
+      description: 'Today: npm install -g optivia && optivia. That\'s one command. The vision takes it further — auto-detection of your CLI tools, automatic configuration, and a setup flow that takes 30 seconds. Optivia should be invisible from the moment you install it.'
     }
   ];
 

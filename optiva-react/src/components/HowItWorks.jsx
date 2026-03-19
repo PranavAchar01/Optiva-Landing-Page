@@ -3,8 +3,8 @@ export default function HowItWorks() {
     {
       number: '01',
       title: 'Intercept',
-      description: 'Optiva catches every prompt before it reaches Claude or Gemini. The CLI tool sits on top of both providers as a transparent overlay. You install it once; it\'s invisible from then on.',
-      code: 'optiva > Build me a login system_'
+      description: 'Optivia catches every prompt before it reaches Claude or Gemini. The CLI tool sits on top of both providers as a transparent overlay. You install it once; it\'s invisible from then on.',
+      code: 'optivia > Build me a login system_'
     },
     {
       number: '02',
@@ -15,13 +15,13 @@ export default function HowItWorks() {
     {
       number: '03',
       title: 'Clarify',
-      description: 'If complexity is high and specificity is low, Optiva asks targeted questions — not generic ones. "What language and framework?" not "Can you tell me more?" The Q&A takes 10–15 seconds and turns a 5-word prompt into a structured 200-word brief.',
+      description: 'If complexity is high and specificity is low, Optivia asks targeted questions — not generic ones. "What language and framework?" not "Can you tell me more?" The Q&A takes 10–15 seconds and turns a 5-word prompt into a structured 200-word brief.',
       code: 'Ask when: κₜ ≥ 7 AND σₜ < 0.5 (always at κₜ = 10)'
     },
     {
       number: '04',
       title: 'Route',
-      description: 'Based on task type, Optiva activates the correct slash commands — /plan, /debug, /memory, /loop, /rewind, and more. Conflicts are resolved automatically. The user never has to know these commands exist.',
+      description: 'Based on task type, Optivia activates the correct slash commands — /plan, /debug, /memory, /loop, /rewind, and more. Conflicts are resolved automatically. The user never has to know these commands exist.',
       code: 'new_code → /plan + /memory  ·  debug → /debug + /rewind'
     },
     {
@@ -37,7 +37,7 @@ export default function HowItWorks() {
       <div className="container">
         <div className="section-header">
           <div className="section-eyebrow">The Pipeline</div>
-          <h2 className="section-title">How Optiva works</h2>
+          <h2 className="section-title">How Optivia works</h2>
           <p className="section-description">
             Every prompt you type passes through five stages before reaching Claude Code or Gemini.
             None of this is visible to you — it happens in milliseconds.

@@ -4,10 +4,10 @@ export default function Footer() {
       <div className="footer-inner">
         <div>
           <div className="footer-brand">
-            <img src="/Logo.png" alt="Optiva" className="footer-logo-img" />
-            <span>Optiva</span>
+            <img src="/Logo.png" alt="Optivia" className="footer-logo-img" />
+            <span>Optivia</span>
           </div>
-          <div className="footer-copy">© 2026 Optiva. Prototype v0.1.0. All rights reserved.</div>
+          <div className="footer-copy">© 2026 Optivia. Prototype v0.1.0. All rights reserved.</div>
         </div>
 
         <ul className="footer-links">

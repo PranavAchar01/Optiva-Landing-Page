@@ -1,6 +1,6 @@
-# Optiva — Minimalist React Landing Page
+# Optivia — Minimalist React Landing Page
 
-A complete redesign of the Optiva landing page with a professional, minimalist black and white aesthetic.
+A complete redesign of the Optivia landing page with a professional, minimalist black and white aesthetic.
 
 ## Design Philosophy
 
@@ -95,4 +95,4 @@ Modern browsers with CSS Grid and Flexbox support:
 
 ---
 
-**Optiva v0.1.0** — Built with React + Vite
+**Optivia v0.1.0** — Built with React + Vite

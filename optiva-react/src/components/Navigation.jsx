@@ -3,8 +3,8 @@ export default function Navigation() {
     <nav className="nav">
       <div className="nav-inner">
         <a href="#" className="nav-logo">
-          <img src="/Logo.png" alt="Optiva" className="nav-logo-img" />
-          <span>Optiva</span>
+          <img src="/Logo.png" alt="Optivia" className="nav-logo-img" />
+          <span>Optivia</span>
         </a>
 
         <ul className="nav-links">

@@ -9,7 +9,7 @@ export default function Hero() {
         </h1>
 
         <p className="hero-subheading">
-          Optiva sits between you and Claude Code or Gemini CLI. It intercepts every prompt,
+          Optivia sits between you and Claude Code or Gemini CLI. It intercepts every prompt,
           scores its complexity, asks the right clarifying questions, routes the optimal slash commands,
           and executes with precisely the right model and agent setup.
         </p>
