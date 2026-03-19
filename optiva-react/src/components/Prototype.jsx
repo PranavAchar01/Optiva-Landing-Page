@@ -15,10 +15,10 @@ export default function Prototype() {
           <div className="video-wrapper">
             <video
               controls
-              poster="../hero-terminal.png"
+              poster="/hero-terminal.png"
               style={{ width: '100%', height: '100%' }}
             >
-              <source src="../Optiva_product_trailer_features_delpmaspu_.mp4" type="video/mp4" />
+              <source src="/optiva-prototype.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="video-caption">

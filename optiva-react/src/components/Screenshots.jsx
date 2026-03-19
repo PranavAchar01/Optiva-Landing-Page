@@ -1,19 +1,19 @@
 export default function Screenshots() {
   const screenshots = [
     {
-      src: '../screenshot-analysis.png',
+      src: '/screenshot-analysis.png',
       title: 'Analysis + Execution Plan',
       tag: 'Scoring engine · model routing · agent selection',
       alt: 'Optiva analysis panel showing complexity score 8/10, specificity 30%, and execution plan with 3 agents'
     },
     {
-      src: '../screenshot-qa.png',
+      src: '/screenshot-qa.png',
       title: 'Clarifying Questions',
       tag: 'Prompt interceptor · targeted Q&A · enhancement',
       alt: 'Optiva Q&A interceptor asking 3 targeted clarifying questions about a login system prompt'
     },
     {
-      src: '../screenshot-scores.png',
+      src: '/screenshot-scores.png',
       title: 'Score Comparison',
       tag: 'Trivial pass-through vs. full multi-agent',
       alt: 'Side-by-side comparison of trivial vs complex prompt routing decisions'
