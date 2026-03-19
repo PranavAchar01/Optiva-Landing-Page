@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd optiva-react && npm run build",
+  "outputDirectory": "optiva-react/dist",
+  "installCommand": "cd optiva-react && npm install"
+}
